@@ -14,9 +14,11 @@ html, body {
 }
 
 h1 {
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 900;
     padding: 0%;
     margin: 0%;
+    color: white;
 }
 
 h2 {
@@ -29,6 +31,15 @@ h2 {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+button {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #F9D195;
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .page-container {
@@ -64,6 +75,7 @@ a {
 
 .hero {
     min-height: fit-content;
+    color: #F9D195;
     background-color: #40576b;
     min-height: 60vw;
     align-items: center;
@@ -82,7 +94,6 @@ a {
     white-space: pre-line;
     justify-content: center;
     align-items: center;
-
     background-color: #40576b;
     padding: 5%;
 }
