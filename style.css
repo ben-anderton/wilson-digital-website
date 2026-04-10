@@ -1,6 +1,8 @@
 
 /* Write function to site-wide color palette for different sections. */
 /* Variables can include 'black on white' 'white and yellow on blue' */
+/* Add script for hyperlink color change when hovering */
+/* Import logo to header */
 
 .playfair-display {
   font-family: "Playfair Display", serif;
