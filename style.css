@@ -10,11 +10,16 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display","Arial Narrow Bold", sans-serif,"Playfair Display";
+}
+
+h1, h2, h3 {
+    font-family: 'Impact', 'Arial Black', Arial, sans-serif;
 }
 
 h1 {
-    font-size: 40px;
+    /* Add Variable font size for different screen sizes */
+    font-size: 48px;
     font-weight: 900;
     padding: 0%;
     margin: 0%;
@@ -22,9 +27,10 @@ h1 {
 }
 
 h2 {
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 36px;
     padding: 0%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     margin: 0%;
 }
 
@@ -48,11 +54,16 @@ button {
     justify-content: center;
 }
 
-.section {
+div.section {
     display: flex;
-    padding-left: 10%;
-    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
     margin: 0;
+    min-height: 65vh;
+    min-height: 65dvh;
 }
 
 .header {
@@ -77,25 +88,34 @@ button {
     min-height: fit-content;
     color: #F9D195;
     background-color: #40576b;
-    min-height: 60vw;
-    align-items: center;
+    gap: 20em;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .process {
     display: flex;
     flex-direction: column;
     white-space: pre-line;
-    padding: 5%;
-    align-items: center;
 }
+
+.packages {
+    background-color: grey;
+}
+
 .about {
     display: flex;
     flex-direction: column;
     white-space: pre-line;
-    justify-content: center;
-    align-items: center;
     background-color: #40576b;
-    padding: 5%;
+}
+
+.letter {
+    font-weight: 600;
 }
 
 .footer {
