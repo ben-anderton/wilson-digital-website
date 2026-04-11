@@ -15,7 +15,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Playfair Display","Arial Narrow Bold", sans-serif,"Playfair Display";
+    font-family: "DIN Alternate","Arial Narrow Bold", sans-serif,"Playfair Display";
 }
 
 h1, h2, h3 {
@@ -48,7 +48,10 @@ button {
     padding: 10px;
     border-radius: 7px;
     background-color: #F9D195;
-    font-family: 'Playfair Display';
+    font-family: 'Impact';
+    letter-spacing: .5px;
+    word-spacing: 1.5px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
 }
